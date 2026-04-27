@@ -29,7 +29,7 @@ app.add_middleware(
 )
 
 # ==============================
-# HELPERS
+# HELPERSs
 # ==============================
 def load_df(file: UploadFile):
     content = file.file.read()
